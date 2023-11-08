@@ -184,15 +184,18 @@ Coldcard option
 
 Since we have our own node we can link it and use it directly for broadcasting transactions.
 
-We are linking it thru Electrum server that we set previously and ply our TOR .onion address and test the connect to see if everything is synced
+We are linking it thru Electrum server that we set previously and apply our TOR .onion address and test the connect to see if everything is synced
 
 <img src="https://i.imgur.com/2lOaylR.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+To find this information about your node you can go inside of your Umrel node and in option find the following page where you could get your .onion address.
+<img src="https://i.imgur.com/qKJGLwf.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 Interact via air gapping in order to receive or send transactions
 
 Here lies all the magic behind the coldcard wallet, as you know we have not plugged this device into anything connected to the internet, all it has been connect to is a 9v battery. 
 
-I will show how we can send funds from it to some other bitcoin wallet assuming we already have received funds on the wallet. 
+I will show how we can send funds from it to some other bitcoin wallet. 
 
 We can press on send and select an address to send to, the amount and fees. Then we press Create Transaction
 
