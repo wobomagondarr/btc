@@ -10,7 +10,7 @@ We will be installing the BTC node on an Raspberry Pi 4 using the Umbrel OS, the
 - Learning Experience: Running a full node can be an educational experience, helping you understand the inner workings of the Bitcoin network and blockchain technology.
 
 
-<h2>Getting the hardware necessary for the project:</h2>
+<h2>Getting the hardware necessary for the Node:</h2>
 
 Raspberry Pi
   
