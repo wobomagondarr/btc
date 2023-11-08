@@ -198,6 +198,41 @@ We can press on send and select an address to send to, the amount and fees. Then
 
 <img src="https://i.imgur.com/kR7sUC5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
+The next step would be to press Finalize Transaction for Signing
+
+<img src="https://i.imgur.com/OKhhJke.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+At this point, we can not just sign since the keys are not on this computer, therefore we need to save the transaction on the SD card so we can get it approved inside the MK4 Coldcard
+
+<img src="https://i.imgur.com/uw15KJi.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+This wills save as .psbt file type standing for Partially Signed Bitcoin Transaction
+
+<img src="https://i.imgur.com/2tZ0OEw.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+Once back inside the coldcard, we can select Ready to Sign
+
+<img src="https://i.imgur.com/88XWXUx.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+It will automatically detect that there is a transaction or multiple ones that needs signing, we select the one we need and accept
+
+<img src="https://i.imgur.com/3Tvg8zE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+This will update the .psbt file as signed. It can then we loaded inside the sparrow wallet
+
+<img src="https://i.imgur.com/IZvbSHr.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+We can then see that the signature was accepted and we can proceed to Broadcast the transaction on the blockchain
+
+<img src="https://i.imgur.com/WLHvoWw.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+
+
+
+
+
+
+
 
 
 <br />
