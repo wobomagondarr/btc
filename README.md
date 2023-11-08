@@ -54,12 +54,29 @@ Get umbrelOS
 
 Download Balena Etcher
 
-- Download and set up Balena Etcher on your computer. This is essential for flashing the Umbrel OS file, downloaded in the previous step, onto the microSD card.
+- Download and set up Balena Etcher on your computer. This is essential for flashing the Umbrel OS file, downloaded in the previous step, onto the microSD card. https://etcher.balena.io/ 
 
 Plug the microSD card into your computer
 
 - If your computer lacks a card reader, you may require one.
 <img src="https://i.imgur.com/zz98OAN.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+Flash umbrelOS
+
+- Launch Balena Etcher and use it to flash the downloaded Umbrel OS zip file onto the microSD card.
+<img src="https://i.imgur.com/JqNDl8U.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+Insert the microSD card in the Pi
+
+- Once the flashing process is complete, take out the microSD card from your computer and insert it into the Raspberry Pi.
+<img src="https://i.imgur.com/Q5rLkxF.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+Connect the SSD
+
+- Place the SSD into its enclosure and connect it to one of the two USB 3.0 ports (indicated by a blue color) on the Raspberry Pi. Note that unless the SSD was previously employed for running Umbrel, any existing data on it will be automatically erased upon powering up the Raspberry Pi.
+<img src="https://i.imgur.com/7iLSsTw.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+
 
 
 
