@@ -230,7 +230,7 @@ We can then see that the signature was accepted and we can proceed to Broadcast 
 
 <img src="https://i.imgur.com/WLHvoWw.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
-
+And there it is, we conducted a permissionless transaction online with full privacy, control over the verification and validation of our own bitcoin transactions.
 
 
 
