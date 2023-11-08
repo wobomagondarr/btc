@@ -151,25 +151,43 @@ Even if found by someone you have to have a passphrase over your seed phrase, me
 
 <img src="https://i.imgur.com/ArbyBMO.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
+Make sure you write down both master key fingerprints for the initial seed phrase and for the passphrase generated wallet. You can use the seed phrase as a decoy if needed or create as many decoys as you need with different passphrases using the same initial seed phrase.
 
+<h2>Connecting on chain Bitcoin wallet</h2>
 
+We will be using Sparrow desktop wallet software to interact with the hardware and play with transactions
 
+First we will be going into the Advanced options → Export wallet 
+<img src="https://i.imgur.com/QEWvbi0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
+Select Generic JSON
+<img src="https://i.imgur.com/1FA5fJg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
+Once you press agree on all the demands, it will write a JSON file on the micro SD card
+<img src="https://i.imgur.com/7OEzfr3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
+You can unplug the chip and attach it to your desktop. Once sparrow wallet open you click on new wallet
+<img src="https://i.imgur.com/ak7ET8R.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
+Select the Airgapped Hardware wallet option
+<img src="https://i.imgur.com/b7zKAIR.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
+Coldcard option
+<img src="https://i.imgur.com/kCYnyia.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
+Since we have our own node we can link it and use it directly for broadcasting transactions.
 
+We are linking it thru Electrum server that we set previously and ply our TOR .onion address and test the connect to see if everything is synced
+<img src="https://i.imgur.com/2lOaylR.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
+Interact via air gapping in order to receive or send transactions
 
+Here lies all the magic behind the coldcard wallet, as you know we have not plugged this device into anything connected to the internet, all it has been connect to is a 9v battery. 
 
+I will show how we can send funds from it to some other bitcoin wallet assuming we already have received funds on the wallet. 
 
-
-
-
-
-
+We can press on send and select an address to send to, the amount and fees. Then we press Create Transaction
+<img src="https://i.imgur.com/kR7sUC5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 
 
