@@ -76,9 +76,13 @@ Connect the SSD
 - Place the SSD into its enclosure and connect it to one of the two USB 3.0 ports (indicated by a blue color) on the Raspberry Pi. Note that unless the SSD was previously employed for running Umbrel, any existing data on it will be automatically erased upon powering up the Raspberry Pi.
 <img src="https://i.imgur.com/7iLSsTw.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
+Connect to your router and power up
 
+- Link the Raspberry Pi to your internet router by connecting one end of the Ethernet cable to the Pi and the other end to any available port on your router. Then proceed to power up the Raspberry Pi by connecting the power supply.
+<img src="https://i.imgur.com/jpEBVKq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
+After a few minutes you will be able to access your Umbrel at http://umbrel.local from any device connected to the same network as the Raspberry Pi. Turning a VPN off will help if you have difficulty connecting. Another way to connect if http://umbrel.local does not work is discovering your Umbrel's IP address with Angry IP https://angryip.org/ and input it into the browser instead of 'umbrel.local'.
 
-
+Once logged in I suggest 
 
 <br />
