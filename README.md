@@ -232,9 +232,9 @@ We can then see that the signature was accepted and we can proceed to Broadcast 
 
 And there it is, we conducted a permissionless transaction online with full privacy, control over the verification and validation of our own bitcoin transactions.
 
+<h2>Lightning Network</h2>
 
-
-
+Will build this section soon
 
 
 
