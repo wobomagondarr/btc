@@ -188,7 +188,8 @@ We are linking it thru Electrum server that we set previously and apply our TOR 
 
 <img src="https://i.imgur.com/2lOaylR.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
-To find this information about your node you can go inside of your Umrel node and in option find the following page where you could get your .onion address.
+To find this information, you can go inside of your Umbrel node in option find the following page where you could get your .onion address by selecting TOR.
+
 <img src="https://i.imgur.com/qKJGLwf.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 Interact via air gapping in order to receive or send transactions
