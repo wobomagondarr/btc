@@ -11,17 +11,44 @@ We will be installing the BTC node on an Raspberry Pi 4 using the Umbrel OS, the
 
 
 <h2>Getting the hardware necessary for the project:</h2>
-Raspberry Pi
+
+- Raspberry Pi
+  
 All variants work but we took the 8 GB RAM for maximum performance
 <img src="https://i.imgur.com/4fM28X8.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
-Storage drive
+- Storage drive
+  
 We need a large enough SSD, for running a full node it is recommended to pick a 2 TB SSD drive.
 <img src="https://i.imgur.com/xdp9fXN.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
-Storage drive enclosure
+- Storage drive enclosure
+  
 To link the storage drive to the Raspberry Pi using a USB connection
 <img src="https://i.imgur.com/XGcuoQI.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+- 16GB+ microSD
+  
+The microSD card exclusively serves for operating Umbrel OS, while your apps and data reside on the storage drive.
+  
+- Power supply
+  
+Ensure to utilize the official Raspberry Pi power supply to mitigate any unforeseen issues.
+
+- Ethernet cable
+  
+To link the Raspberry Pi to your internet router.
+  
+- Case
+  
+Encase and shield your new personal server with a durable case.
+<img src="https://i.imgur.com/RaTAmjg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+
+
+<h2>Setup process</h2>
+
+
 
 
 
