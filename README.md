@@ -48,7 +48,18 @@ Case
 
 Once all the hardware is assembled we can setup the OS on the Raspberry Pi.
 
+Get umbrelOS
 
+- Retrieve Umbrel OS for Raspberry Pi on your computer. https://umbrel.com/#umbrelos
+
+Download Balena Etcher
+
+- Download and set up Balena Etcher on your computer. This is essential for flashing the Umbrel OS file, downloaded in the previous step, onto the microSD card.
+
+Plug the microSD card into your computer
+
+- If your computer lacks a card reader, you may require one.
+<img src="https://i.imgur.com/zz98OAN.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 
 
