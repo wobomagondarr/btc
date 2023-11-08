@@ -83,6 +83,17 @@ Connect to your router and power up
 
 After a few minutes you will be able to access your Umbrel at http://umbrel.local from any device connected to the same network as the Raspberry Pi. Turning a VPN off will help if you have difficulty connecting. Another way to connect if http://umbrel.local does not work is discovering your Umbrel's IP address with Angry IP https://angryip.org/ and input it into the browser instead of 'umbrel.local'.
 
-Once logged in I suggest 
+Once logged in I suggest setting up Two-factor auth (2FA) in settings.
+
+You can them proceed and install the necessary apps: bitcoin core node, electrum server and lightning node. This can take some time to sync.
+<img src="https://i.imgur.com/cKDzMK8.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+
+
+
+
+
+
+
 
 <br />
