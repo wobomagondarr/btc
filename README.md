@@ -128,6 +128,7 @@ Industrial MicroSD
 <img src="https://i.imgur.com/EiYxIcx.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 Once assembled
+
 <img src="https://i.imgur.com/AXwHDI6.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 Follow instruction to verify the sealed number and if it matches 
@@ -139,13 +140,37 @@ The next step is to generate a new BIP39 seed phrase.
 <img src="https://i.imgur.com/hFhNk5i.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 I personally suggest using the dice roll option. Once generated you need to backup your newly generated seed phrase, Coinkite offers an paper version. 
+
 <img src="https://i.imgur.com/NMPWPoP.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 You can also explore additional options such as metal plates that are fire resistant but the absolute favorite has to be the steel washers as it is compact and can be kept in multiple places. Below is an example of how it looks once completed.
+
 <img src="https://i.imgur.com/UEGrKUa.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 Even if found by someone you have to have a passphrase over your seed phrase, meaning a 13th(if 12 words) or 25th(if 24 words) password over your seed phrase. This passphrase can be like a real password that you have to remember and by adding that it will generate a completely new set of addresses and a new master key fingerprint.
+
 <img src="https://i.imgur.com/ArbyBMO.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 <br />
