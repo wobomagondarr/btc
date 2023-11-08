@@ -44,9 +44,9 @@ To link the Raspberry Pi to your internet router.
 Encase and shield your new personal server with a durable case.
 <img src="https://i.imgur.com/RaTAmjg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
-
-
 <h2>Setup process</h2>
+
+Once all the hardware is assembled we can setup the OS on the Raspberry Pi.
 
 
 
