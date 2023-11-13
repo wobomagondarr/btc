@@ -15,17 +15,17 @@ We will be installing the BTC node on an Raspberry Pi 4 using the Umbrel OS, the
 Raspberry Pi
   
 - All variants work but we took the 8 GB RAM for maximum performance
-<img src="https://i.imgur.com/4fM28X8.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/4fM28X8.png" height="80%" width="80%"/>
 
 Storage drive
   
 - We need a large enough SSD, for running a full node it is recommended to pick a 2 TB SSD drive.
-<img src="https://i.imgur.com/xdp9fXN.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/xdp9fXN.png" height="80%" width="80%"/>
 
 Storage drive enclosure
   
 - To link the storage drive to the Raspberry Pi using a USB connection
-<img src="https://i.imgur.com/XGcuoQI.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/XGcuoQI.png" height="80%" width="80%"/>
 
 16GB+ microSD
   
@@ -42,7 +42,7 @@ Ethernet cable
 Case
   
 - Encase and shield your new personal server with a durable case.
-<img src="https://i.imgur.com/RaTAmjg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/RaTAmjg.png" height="80%" width="80%"/>
 
 <h2>Setup process</h2>
 
@@ -59,40 +59,40 @@ Download Balena Etcher
 Plug the microSD card into your computer
 
 - If your computer lacks a card reader, you may require one.
-<img src="https://i.imgur.com/zz98OAN.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/zz98OAN.png" height="80%" width="80%"/>
 
 Flash umbrelOS
 
 - Launch Balena Etcher and use it to flash the downloaded Umbrel OS zip file onto the microSD card.
-<img src="https://i.imgur.com/JqNDl8U.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/JqNDl8U.png" height="80%" width="80%"/>
 
 Insert the microSD card in the Pi
 
 - Once the flashing process is complete, take out the microSD card from your computer and insert it into the Raspberry Pi.
-<img src="https://i.imgur.com/Q5rLkxF.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/Q5rLkxF.png" height="80%" width="80%"/>
 
 Connect the SSD
 
 - Place the SSD into its enclosure and connect it to one of the two USB 3.0 ports (indicated by a blue color) on the Raspberry Pi. Note that unless the SSD was previously employed for running Umbrel, any existing data on it will be automatically erased upon powering up the Raspberry Pi.
-<img src="https://i.imgur.com/7iLSsTw.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/7iLSsTw.png" height="80%" width="80%"/>
 
 Connect to your router and power up
 
 - Link the Raspberry Pi to your internet router by connecting one end of the Ethernet cable to the Pi and the other end to any available port on your router. Then proceed to power up the Raspberry Pi by connecting the power supply.
-<img src="https://i.imgur.com/jpEBVKq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/jpEBVKq.png" height="80%" width="80%"/>
 
 After a few minutes you will be able to access your Umbrel at http://umbrel.local from any device connected to the same network as the Raspberry Pi. Turning a VPN off will help if you have difficulty connecting. Another way to connect if http://umbrel.local does not work is discovering your Umbrel's IP address with Angry IP https://angryip.org/ and input it into the browser instead of 'umbrel.local'.
 
 Once logged in I suggest setting up Two-factor auth (2FA) in settings.
 
 You can them proceed and install the necessary apps: bitcoin core node, electrum server and lightning node. This can take some time to sync.
-<img src="https://i.imgur.com/cKDzMK8.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/cKDzMK8.png" height="80%" width="80%"/>
 
 
 <h2>Hardware wallet(Coldcard MK4) setup:</h2>
 
 There could be multiple choices for a hardware wallet but in this case I believe the MK4 from Coinkite is the best and most advanced one made for true sovereign individuals.
-<img src="https://i.imgur.com/Kzv0PYZ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/Kzv0PYZ.png" height="80%" width="80%"/>
 
 Other than the USB-C connector, optional NFC and massive RAM for multisig, there are several benefits for using the MK4:
 
@@ -110,46 +110,46 @@ Other than the USB-C connector, optional NFC and massive RAM for multisig, there
 COLDPOWER Adapter
 
 - Supply power to your Coldcard and other low-power USB devices using a standard 9-volt battery, all without worrying about USB data issues.
-<img src="https://i.imgur.com/BIFET4A.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/BIFET4A.png" height="80%" width="80%"/>
 
 9-volt battery
 
 - To energize the adapter
-<img src="https://i.imgur.com/4r4Tbm4.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/4r4Tbm4.png" height="80%" width="80%"/>
 
 Power-Only USB-C Cable
 
 - A magnetic power-only cable, ensures the secure powering of your COLDCARD Mk4, guaranteeing the absence of connected data lines.
-<img src="https://i.imgur.com/ZgTTLIz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/ZgTTLIz.png" height="80%" width="80%"/>
 
 Industrial MicroSD
 
 - Adequately sized solely for supporting small backups and transaction signing—illustrated here with a 4GB example.
-<img src="https://i.imgur.com/EiYxIcx.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/EiYxIcx.png" height="80%" width="80%"/>
 
 Once assembled
 
-<img src="https://i.imgur.com/AXwHDI6.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/AXwHDI6.png" height="80%" width="80%"/>
 
 Follow instruction to verify the sealed number and if it matches 
-<img src="https://i.imgur.com/HyDQ5eI.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/HyDQ5eI.png" height="80%" width="80%"/>
 
 Initial setup you will be prompted with pins and anti-phishing code words so you know each time you enter the device it was not tempered with. 
 
 The next step is to generate a new BIP39 seed phrase.
-<img src="https://i.imgur.com/hFhNk5i.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/hFhNk5i.png" height="80%" width="80%"/>
 
 I personally suggest using the dice roll option. Once generated you need to backup your newly generated seed phrase, Coinkite offers an paper version. 
 
-<img src="https://i.imgur.com/NMPWPoP.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/NMPWPoP.png" height="80%" width="80%"/>
 
 You can also explore additional options such as metal plates that are fire resistant but the absolute favorite has to be the steel washers as it is compact and can be kept in multiple places. Below is an example of how it looks once completed.
 
-<img src="https://i.imgur.com/UEGrKUa.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/UEGrKUa.png" height="80%" width="80%"/>
 
 Even if found by someone you have to have a passphrase over your seed phrase, meaning a 13th(if 12 words) or 25th(if 24 words) password over your seed phrase. This passphrase can be like a real password that you have to remember and by adding that it will generate a completely new set of addresses and a new master key fingerprint.
 
-<img src="https://i.imgur.com/ArbyBMO.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/ArbyBMO.png" height="80%" width="80%"/>
 
 Make sure you write down both master key fingerprints for the initial seed phrase and for the passphrase generated wallet. You can use the seed phrase as a decoy if needed or create as many decoys as you need with different passphrases using the same initial seed phrase.
 
@@ -160,37 +160,37 @@ We will be using Sparrow desktop wallet software to interact with the hardware a
 
 First we will be going into the Advanced options → Export wallet 
 
-<img src="https://i.imgur.com/QEWvbi0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/QEWvbi0.png" height="80%" width="80%"/>
 
 Select Generic JSON
 
-<img src="https://i.imgur.com/1FA5fJg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/1FA5fJg.png" height="80%" width="80%"/>
 
 Once you press agree on all the demands, it will write a JSON file on the micro SD card
 
-<img src="https://i.imgur.com/7OEzfr3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/7OEzfr3.png" height="80%" width="80%"/>
 
 You can unplug the chip and attach it to your desktop. Once sparrow wallet open you click on new wallet
 
-<img src="https://i.imgur.com/ak7ET8R.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/ak7ET8R.png" height="80%" width="80%"/>
 
 Select the Airgapped Hardware wallet option
 
-<img src="https://i.imgur.com/b7zKAIR.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/b7zKAIR.png" height="80%" width="80%"/>
 
 Coldcard option
 
-<img src="https://i.imgur.com/kCYnyia.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/kCYnyia.png" height="80%" width="80%"/>
 
 Since we have our own node we can link it and use it directly for broadcasting transactions.
 
 We are linking it thru Electrum server that we set previously and apply our TOR .onion address and test the connect to see if everything is synced
 
-<img src="https://i.imgur.com/2lOaylR.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/2lOaylR.png" height="80%" width="80%"/>
 
 To find this information, you can go inside of your Umbrel node in option find the following page where you could get your .onion address by selecting TOR.
 
-<img src="https://i.imgur.com/qKJGLwf.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/qKJGLwf.png" height="80%" width="80%"/>
 
 Interact via air gapping in order to receive or send transactions
 
@@ -200,35 +200,35 @@ I will show how we can send funds from it to some other bitcoin wallet.
 
 We can press on send and select an address to send to, the amount and fees. Then we press Create Transaction
 
-<img src="https://i.imgur.com/kR7sUC5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/kR7sUC5.png" height="80%" width="80%"/>
 
 The next step would be to press Finalize Transaction for Signing
 
-<img src="https://i.imgur.com/OKhhJke.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/OKhhJke.png" height="80%" width="80%"/>
 
 At this point, we can not just sign since the keys are not on this computer, therefore we need to save the transaction on the SD card so we can get it approved inside the MK4 Coldcard
 
-<img src="https://i.imgur.com/uw15KJi.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/uw15KJi.png" height="80%" width="80%"/>
 
 This wills save as .psbt file type standing for Partially Signed Bitcoin Transaction
 
-<img src="https://i.imgur.com/2tZ0OEw.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/2tZ0OEw.png" height="80%" width="80%"/>
 
 Once back inside the coldcard, we can select Ready to Sign
 
-<img src="https://i.imgur.com/88XWXUx.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/88XWXUx.png" height="80%" width="80%"/>
 
 It will automatically detect that there is a transaction or multiple ones that needs signing, we select the one we need and accept
 
-<img src="https://i.imgur.com/3Tvg8zE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/3Tvg8zE.png" height="80%" width="80%"/>
 
 This will update the .psbt file as signed. It can then we loaded inside the sparrow wallet
 
-<img src="https://i.imgur.com/IZvbSHr.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/IZvbSHr.png" height="80%" width="80%"/>
 
 We can then see that the signature was accepted and we can proceed to Broadcast the transaction on the blockchain
 
-<img src="https://i.imgur.com/WLHvoWw.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/WLHvoWw.png" height="80%" width="80%"/>
 
 And there it is, we conducted a permissionless transaction online with full privacy, control over the verification and validation of our own bitcoin transactions.
 
